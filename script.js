@@ -8,3 +8,4 @@ passwordCheckbox.addEventListener('change', ()=>{
         passwordInput.type = 'password';
     }
 })
+console.log("Hello World!")
