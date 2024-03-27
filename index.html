@@ -16,19 +16,24 @@
         <form class="form-container" style="border: 2px solid cornflowerblue;">
             <h2>Sign Up</h2>
             <div class="input">
-                <input type="text" placeholder="Username" required>
+                <input class="inputs" type="text" placeholder="Username" required >
             </div>
             <div class="input">
-                <input type="email" placeholder="Email" required>
+                <input class="inputs" type="email" placeholder="Email" required >
             </div>
-            <div class="input">
-                <input type="password" placeholder="Password" required>
+            <div class="input" id="pass-field">
+                <input class="inputs" type="password" placeholder="Password" required id="password-input">
+                <div>
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox" id="checkbox-lbl">show password</label>
+                </div>
             </div>
             <div class="btn">
                 <button>Log In</button>
             </div>
         </form>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
